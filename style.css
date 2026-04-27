@@ -1,0 +1,76 @@
+body{
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+background-color: #f4f4f4;
+}
+.header {
+background-color: #333;
+color: white;
+padding: 20px;
+text-align: center;
+}
+.header h3 {
+margin: 0;
+}
+.content {
+max-width: 600px;
+margin: 20px auto;
+padding: 20px;
+}
+.regform {
+background-color: rgb(28, 114, 71);
+padding: 20px;
+border-radius: 8px;
+box-shadow: 0 2px 5px #0000001a;
+}
+fieldset {
+border: 1px solid #ddd;
+padding: 10px;
+border-radius: 5px;
+}
+legend {
+font-weight: bold;
+font-size: 18px;
+text-align: center;
+}
+label {
+display: block;
+margin-top: 10px;
+font-weight: bold;
+}
+input[type="email"],
+input[type="password"] {
+width: 100%;
+padding: 8px;
+margin-top: 5px;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+}
+input[type="submit"]{
+background-color: #333333;
+color: white;
+padding: 10px 20px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+margin-right: 10px;
+margin-top: 10px;
+width: 100%;
+}
+.content h4 {
+margin-top: 0;
+text-align: center;
+}
+.footer {
+background-color: #333333;
+color: white;
+text-align: center;
+padding: 15px;
+margin-top: 20px;
+}
+a {
+color: #9b570a;
+text-decoration: none;
+}

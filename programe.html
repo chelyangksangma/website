@@ -1,0 +1,56 @@
+<html>
+<head>
+<title> Practical 18a</title>
+<link rel="stylesheet" href="stylesheet/style.css">
+</head>
+<body>
+<!--Header Section-->
+<div class="header">
+<h3>Rehum s marak</h3>
+<p>This is the practical solution for practical 18a</p>
+</div>
+<!--Main Content-->
+<div class="content">
+<div class="regform">
+<form action="practical13.html " onsubmit="return validation()">
+<fieldset>
+<legend>Login Form</legend>
+<p>
+<label for="email">Email:</label>
+<input type="email" id="email" placeholder="Enter your email id" required>
+</p>
+<p>
+<label for="password">Password:</label>
+<input type="password" id="password" placeholder="Enter your password" required>
+</p>
+<p>
+<input type="submit" value="Login">
+</p>
+<h4>Don't have an account? <a href="practical18b.html">Register</a></h4>
+</fieldset>
+</form>
+</div>
+</div>
+<div class="validationJS">
+<script>
+function validation(){
+var emailID = document.getElementById("email").value;
+var pass = document.getElementById("password").value;
+if(emailID == "" || pass == "")
+{
+alert("Please fill in all the fields.");
+return false;
+}
+else
+{
+alert("Login successful!");
+return true;
+}
+}
+</script>
+<!--Footer Section-->
+<div class="footer">
+&copy;chelyang 2026
+</div>
+</body>
+</html> 
